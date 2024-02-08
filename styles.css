@@ -11,18 +11,29 @@ body {
 	font: 1em Arial;
 }
 
-.mainInfo{
+.main-info{
 	display: flex;
-	height: 210px;
-	align-items: flex-end;
+	height: 199px;
+	align-items: center;
+	font-weight: bold;
+	margin-top: 15px;
 }
 
-.mainInfo img {
-	padding-right: 16px;
+.main-info img {
+	margin-right: 15px;
+}
+
+.personal-info p:first-child {
+	margin-top: 0;
+}
+
+.personal-info p:last-child {
+	margin-bottom: 0;
 }
 
 .bold {
 	font-weight: bold;
+
 }
 
 .first-column {
