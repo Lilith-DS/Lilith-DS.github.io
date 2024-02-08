@@ -8,14 +8,24 @@ body {
 
 	background-color: #f7f7f7;
 	color: #333333;
+	font: 1em Arial;
 }
 
 .mainInfo{
-	height: 199px;
-	font-weight: bold;
+	display: flex;
+	height: 210px;
+	align-items: flex-end;
 }
 
 .mainInfo img {
-	float: left;
-	padding-right: 10px;
+	padding-right: 16px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.first-column {
+	vertical-align: top; 
+	width: 168px;
 }
